@@ -1,14 +1,14 @@
 # ML-Based-Time-Dependent-Surrogate-FEA-Solver-with-AI-Reporting
 Built a hybrid ML-based surrogate model for beam FEA to predict stress, deflection, and plastic strain, combined with physics-based time evolution. Integrated Streamlit UI and automated AI-driven engineering report generation with PDF export.
 
-Overview:
+Overview:-
 This project combines surrogate modeling (Random Forest) with engineering physics to provide fast and reliable structural predictions.
 Unlike traditional FEA solvers, this tool:
 -Generates time-dependent response curves
 -Provides AI-based engineering insights
 -Exports automated PDF reports
 
-Key Features
+Key Features:-
 •	ML Surrogate Model for predicting:
 1.	Deflection
 2.	von Mises stress
@@ -38,7 +38,7 @@ Key Features
 3.	Failure assessment
 4.	Design recommendations
 
-Tech Stack:
+Tech Stack:-
 1.	Python
 2.	Streamlit
 3.	Scikit-learn (Random Forest)
@@ -47,15 +47,15 @@ Tech Stack:
 6.	ReportLab (PDF generation)
 7.	OpenAI API (AI reporting)
 
-How to run:
+How to run:-
 1. Install dependencies
 2. Set API Key (optional): export OPENAI_API_KEY=your_api_key  
 3. Run application: streamlit run app.py
 
-Key Takeaway:
+Key Takeaway:-
 1. ML predicts WHAT happens
 2. Physics explains HOW it happens
 
-Author
+Author:-
 Sushil Muli
 FEA Engineer | PG in AIML-Deep Learning
